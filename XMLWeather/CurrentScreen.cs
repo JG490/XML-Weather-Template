@@ -29,14 +29,18 @@ namespace XMLWeather
             if (Form1.days[0].condition == "moderate rain")
             {
                 mainConditionOutput.BackgroundImage = Properties.Resources.Rain3;
+                BackgroundImage = Properties.Resources.overcast;
+
             }
             if (Form1.days[0].condition == "rain and snow")
             {
                 mainConditionOutput.BackgroundImage = Properties.Resources.snowflake;
+                BackgroundImage = Properties.Resources.overcast;
             }
             if (Form1.days[0].condition == "sky is clear")
             {
                 mainConditionOutput.BackgroundImage = Properties.Resources.sun;
+                BackgroundImage = Properties.Resources.weather_app_background;
             }
         }
 
