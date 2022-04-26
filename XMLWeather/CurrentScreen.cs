@@ -59,7 +59,6 @@ namespace XMLWeather
             try
             {
                Form1.days[0-4].location = cityInput.Text;
-               
             }
             catch
             {
