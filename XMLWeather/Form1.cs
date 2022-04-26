@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Joey Gerber
+//Mr. T
+//ICS4U
+//Weather app that finds the temperatures, conditions of the current day and next four days displayed. City search still needs some work. 
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,8 +49,8 @@ namespace XMLWeather
                 newDay.condition = reader.GetAttribute("name");
 
                 reader.ReadToFollowing("temperature");
-                newDay.tempLow = reader.GetAttribute("min");
-                newDay.tempHigh = reader.GetAttribute("max");
+                newDay.tempLow = Convert.ToDouble(reader.GetAttribute("min")).ToString("0");
+                newDay.tempHigh = Convert.ToDouble(reader.GetAttribute("max")).ToString("0");
 
                 reader.ReadToFollowing("clouds");
                 newDay.cloud = reader.GetAttribute ("value");

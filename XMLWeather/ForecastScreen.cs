@@ -20,20 +20,20 @@ namespace XMLWeather
         public void displayForecast()
         {
             date1.Text = Form1.days[1].date;
-            min1.Text = Form1.days[1].tempLow;
-            max1.Text = Form1.days[1].tempHigh;
+            min1.Text = $"{Form1.days[1].tempLow}°C";
+            max1.Text = $"{Form1.days[1].tempHigh}°C";
 
             date2.Text = Form1.days[2].date;
-            min2.Text = Form1.days[2].tempLow;
-            max2.Text = Form1.days[2].tempHigh;
+            min2.Text = $"{Form1.days[2].tempLow}°C";
+            max2.Text = $"{Form1.days[2].tempHigh}°C";
 
             date3.Text = Form1.days[3].date;
-            min3.Text = Form1.days[3].tempLow;
-            max3.Text = Form1.days[3].tempHigh;
+            min3.Text = $"{Form1.days[3].tempLow}°C";
+            max3.Text = $"{Form1.days[3].tempHigh}°C";
 
             date4.Text = Form1.days[4].date;
-            min4.Text = Form1.days[4].tempLow;
-            max4.Text = Form1.days[4].tempHigh;
+            min4.Text = $"{Form1.days[4].tempLow}°C";
+            max4.Text = $"{Form1.days[4].tempHigh}°C";
 
             if (Form1.days[1].condition == "moderate rain")
             {

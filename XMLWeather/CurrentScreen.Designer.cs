@@ -53,7 +53,7 @@
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
             this.cityOutput.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(19, 116);
+            this.cityOutput.Location = new System.Drawing.Point(21, 78);
             this.cityOutput.Name = "cityOutput";
             this.cityOutput.Size = new System.Drawing.Size(201, 33);
             this.cityOutput.TabIndex = 22;
@@ -64,7 +64,7 @@
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.maxOutput.ForeColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(146, 169);
+            this.maxOutput.Location = new System.Drawing.Point(146, 131);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(113, 13);
             this.maxOutput.TabIndex = 32;
@@ -74,7 +74,7 @@
             this.maxLabel.AutoSize = true;
             this.maxLabel.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(103, 169);
+            this.maxLabel.Location = new System.Drawing.Point(103, 131);
             this.maxLabel.Name = "maxLabel";
             this.maxLabel.Size = new System.Drawing.Size(26, 13);
             this.maxLabel.TabIndex = 31;
@@ -85,7 +85,7 @@
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.minOutput.ForeColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(146, 182);
+            this.minOutput.Location = new System.Drawing.Point(146, 144);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(113, 13);
             this.minOutput.TabIndex = 30;
@@ -95,7 +95,7 @@
             this.minLabel.AutoSize = true;
             this.minLabel.BackColor = System.Drawing.Color.Transparent;
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(103, 184);
+            this.minLabel.Location = new System.Drawing.Point(103, 146);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(23, 13);
             this.minLabel.TabIndex = 29;
@@ -105,7 +105,7 @@
             // 
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(126, 148);
+            this.currentOutput.Location = new System.Drawing.Point(126, 110);
             this.currentOutput.Name = "currentOutput";
             this.currentOutput.Size = new System.Drawing.Size(22, 13);
             this.currentOutput.TabIndex = 28;
@@ -116,7 +116,7 @@
             this.tempLabel.BackColor = System.Drawing.Color.Transparent;
             this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(146, 152);
+            this.tempLabel.Location = new System.Drawing.Point(146, 114);
             this.tempLabel.Name = "tempLabel";
             this.tempLabel.Size = new System.Drawing.Size(149, 16);
             this.tempLabel.TabIndex = 26;
@@ -164,7 +164,7 @@
             this.temptitlelabel.BackColor = System.Drawing.Color.Transparent;
             this.temptitlelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.temptitlelabel.ForeColor = System.Drawing.Color.White;
-            this.temptitlelabel.Location = new System.Drawing.Point(22, 149);
+            this.temptitlelabel.Location = new System.Drawing.Point(22, 111);
             this.temptitlelabel.Name = "temptitlelabel";
             this.temptitlelabel.Size = new System.Drawing.Size(118, 20);
             this.temptitlelabel.TabIndex = 43;
@@ -176,7 +176,7 @@
             this.ConditionOutput.BackColor = System.Drawing.Color.Transparent;
             this.ConditionOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConditionOutput.ForeColor = System.Drawing.Color.White;
-            this.ConditionOutput.Location = new System.Drawing.Point(22, 225);
+            this.ConditionOutput.Location = new System.Drawing.Point(22, 175);
             this.ConditionOutput.Name = "ConditionOutput";
             this.ConditionOutput.Size = new System.Drawing.Size(94, 20);
             this.ConditionOutput.TabIndex = 46;
@@ -186,7 +186,7 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(126, 196);
+            this.label2.Location = new System.Drawing.Point(126, 158);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(22, 13);
             this.label2.TabIndex = 45;
@@ -197,7 +197,7 @@
             this.cloudOutput.BackColor = System.Drawing.Color.Transparent;
             this.cloudOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cloudOutput.ForeColor = System.Drawing.Color.White;
-            this.cloudOutput.Location = new System.Drawing.Point(23, 197);
+            this.cloudOutput.Location = new System.Drawing.Point(23, 159);
             this.cloudOutput.Name = "cloudOutput";
             this.cloudOutput.Size = new System.Drawing.Size(149, 16);
             this.cloudOutput.TabIndex = 44;
@@ -206,7 +206,7 @@
             // mainConditionOutput
             // 
             this.mainConditionOutput.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.mainConditionOutput.Location = new System.Drawing.Point(24, 248);
+            this.mainConditionOutput.Location = new System.Drawing.Point(26, 198);
             this.mainConditionOutput.Name = "mainConditionOutput";
             this.mainConditionOutput.Size = new System.Drawing.Size(186, 120);
             this.mainConditionOutput.TabIndex = 92;
