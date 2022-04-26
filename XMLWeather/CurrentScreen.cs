@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace XMLWeather
-{
+{   
     public partial class CurrentScreen : UserControl
     {
         public CurrentScreen()
@@ -23,6 +23,21 @@ namespace XMLWeather
             tempLabel.Text = Form1.days[0].currentTemp;
             minOutput.Text = Form1.days[0].tempLow;
             maxOutput.Text = Form1.days[0].tempHigh;
+            ConditionOutput.Text = Form1.days[0].condition;
+            cloudOutput.Text = Form1.days[0].cloud;
+
+            if (Form1.days[0].condition == "moderate rain")
+            {
+                mainConditionOutput.BackgroundImage = Properties.Resources.Rain3;
+            }
+            if (Form1.days[0].condition == "rain and snow")
+            {
+                mainConditionOutput.BackgroundImage = Properties.Resources.snowflake;
+            }
+            if (Form1.days[0].condition == "sky is clear")
+            {
+                mainConditionOutput.BackgroundImage = Properties.Resources.sun;
+            }
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)
@@ -32,6 +47,24 @@ namespace XMLWeather
 
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
+        }
+
+        private void CurrentScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               Form1.days[0-4].location = cityInput.Text;
+               
+            }
+            catch
+            {
+                cityInput.Text = "ERROR";
+            }
         }
     }
 }
