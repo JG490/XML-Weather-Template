@@ -46,14 +46,12 @@
             this.cityInput = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
             this.dateOutput = new System.Windows.Forms.Label();
-            this.backgroundPicture = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.mainConditionOutput)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.backgroundPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // cityOutput
             // 
-            this.cityOutput.BackColor = System.Drawing.Color.Black;
+            this.cityOutput.BackColor = System.Drawing.Color.Transparent;
             this.cityOutput.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
             this.cityOutput.Location = new System.Drawing.Point(21, 108);
@@ -64,7 +62,7 @@
             // 
             // maxOutput
             // 
-            this.maxOutput.BackColor = System.Drawing.Color.Black;
+            this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.maxOutput.ForeColor = System.Drawing.Color.White;
             this.maxOutput.Location = new System.Drawing.Point(146, 161);
@@ -75,7 +73,7 @@
             // maxLabel
             // 
             this.maxLabel.AutoSize = true;
-            this.maxLabel.BackColor = System.Drawing.Color.Black;
+            this.maxLabel.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel.ForeColor = System.Drawing.Color.White;
             this.maxLabel.Location = new System.Drawing.Point(103, 161);
             this.maxLabel.Name = "maxLabel";
@@ -85,7 +83,7 @@
             // 
             // minOutput
             // 
-            this.minOutput.BackColor = System.Drawing.Color.Black;
+            this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.minOutput.ForeColor = System.Drawing.Color.White;
             this.minOutput.Location = new System.Drawing.Point(146, 174);
@@ -96,7 +94,7 @@
             // minLabel
             // 
             this.minLabel.AutoSize = true;
-            this.minLabel.BackColor = System.Drawing.Color.Black;
+            this.minLabel.BackColor = System.Drawing.Color.Transparent;
             this.minLabel.ForeColor = System.Drawing.Color.White;
             this.minLabel.Location = new System.Drawing.Point(103, 176);
             this.minLabel.Name = "minLabel";
@@ -116,7 +114,7 @@
             // tempLabel
             // 
             this.tempLabel.AutoSize = true;
-            this.tempLabel.BackColor = System.Drawing.Color.Black;
+            this.tempLabel.BackColor = System.Drawing.Color.Transparent;
             this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
             this.tempLabel.Location = new System.Drawing.Point(146, 144);
@@ -127,7 +125,7 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.Black;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(21, 14);
@@ -139,7 +137,7 @@
             // forecastLabel
             // 
             this.forecastLabel.AutoSize = true;
-            this.forecastLabel.BackColor = System.Drawing.Color.Black;
+            this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
             this.forecastLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forecastLabel.ForeColor = System.Drawing.Color.White;
             this.forecastLabel.Location = new System.Drawing.Point(141, 14);
@@ -151,7 +149,7 @@
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.Black;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(19, 25);
@@ -164,7 +162,7 @@
             // temptitlelabel
             // 
             this.temptitlelabel.AutoSize = true;
-            this.temptitlelabel.BackColor = System.Drawing.Color.Black;
+            this.temptitlelabel.BackColor = System.Drawing.Color.Transparent;
             this.temptitlelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.temptitlelabel.ForeColor = System.Drawing.Color.White;
             this.temptitlelabel.Location = new System.Drawing.Point(22, 141);
@@ -176,7 +174,7 @@
             // ConditionOutput
             // 
             this.ConditionOutput.AutoSize = true;
-            this.ConditionOutput.BackColor = System.Drawing.Color.Black;
+            this.ConditionOutput.BackColor = System.Drawing.Color.Transparent;
             this.ConditionOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConditionOutput.ForeColor = System.Drawing.Color.White;
             this.ConditionOutput.Location = new System.Drawing.Point(22, 233);
@@ -187,7 +185,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Black;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(126, 188);
             this.label2.Name = "label2";
@@ -197,7 +195,7 @@
             // cloudOutput
             // 
             this.cloudOutput.AutoSize = true;
-            this.cloudOutput.BackColor = System.Drawing.Color.Black;
+            this.cloudOutput.BackColor = System.Drawing.Color.Transparent;
             this.cloudOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cloudOutput.ForeColor = System.Drawing.Color.White;
             this.cloudOutput.Location = new System.Drawing.Point(23, 201);
@@ -236,7 +234,7 @@
             // dateOutput
             // 
             this.dateOutput.AutoSize = true;
-            this.dateOutput.BackColor = System.Drawing.Color.Black;
+            this.dateOutput.BackColor = System.Drawing.Color.Transparent;
             this.dateOutput.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold);
             this.dateOutput.ForeColor = System.Drawing.Color.White;
             this.dateOutput.Location = new System.Drawing.Point(21, 80);
@@ -244,15 +242,6 @@
             this.dateOutput.Size = new System.Drawing.Size(62, 28);
             this.dateOutput.TabIndex = 95;
             this.dateOutput.Text = "Date";
-            // 
-            // backgroundPicture
-            // 
-            this.backgroundPicture.BackColor = System.Drawing.Color.White;
-            this.backgroundPicture.Location = new System.Drawing.Point(2, 0);
-            this.backgroundPicture.Name = "backgroundPicture";
-            this.backgroundPicture.Size = new System.Drawing.Size(247, 400);
-            this.backgroundPicture.TabIndex = 96;
-            this.backgroundPicture.TabStop = false;
             // 
             // CurrentScreen
             // 
@@ -278,12 +267,10 @@
             this.Controls.Add(this.currentOutput);
             this.Controls.Add(this.tempLabel);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.backgroundPicture);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(250, 400);
             this.Load += new System.EventHandler(this.CurrentScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mainConditionOutput)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.backgroundPicture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,6 +295,5 @@
         private System.Windows.Forms.TextBox cityInput;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.Label dateOutput;
-        private System.Windows.Forms.PictureBox backgroundPicture;
     }
 }
