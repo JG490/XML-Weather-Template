@@ -19,8 +19,9 @@ namespace XMLWeather
 
         public void DisplayCurrent()
         {
+            dateOutput.Text = Form1.days[0].date;
             cityOutput.Text = Form1.days[0].location;
-            tempLabel.Text = Form1.days[0].currentTemp;
+            tempLabel.Text = $"{Form1.days[0].currentTemp}°C";
             minOutput.Text = $"{Form1.days[0].tempLow}°C";
             maxOutput.Text = $"{Form1.days[0].tempHigh}°C";
             ConditionOutput.Text = Form1.days[0].condition;
@@ -43,7 +44,6 @@ namespace XMLWeather
                 BackgroundImage = Properties.Resources.weather_app_background;
             }
         }
-
         private void forecastLabel_Click(object sender, EventArgs e)
         {
             Form f = this.FindForm();
@@ -57,12 +57,12 @@ namespace XMLWeather
         {
 
         }
-
         private void searchButton_Click(object sender, EventArgs e)
         {
             try
             {
-               Form1.days[0-4].location = cityInput.Text;
+               //Form1.days[0-4].location = cityInput.Text;
+               Form1.city = cityInput.Text;
             }
             catch
             {

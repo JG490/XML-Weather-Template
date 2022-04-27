@@ -21,9 +21,12 @@ namespace XMLWeather
         // TODO: create list to hold day objects
         public static List <Day> days = new List <Day> ();
         public static string country;
-        public static string city;
+        public static string city = "Stratford";
+        WebClient client = new WebClient();
+
         public Form1()
         {
+            client.DownloadFile("http://api.openweathermap.org/data/2.5/weather?q=Stratford,CA&mode=xml&units=metric&appid=3f2e224b815c0ed45524322e145149f0", "WeatherData.xml"); 
             InitializeComponent();
             ExtractForecast();
             ExtractCurrent();
@@ -53,7 +56,7 @@ namespace XMLWeather
                 newDay.tempHigh = Convert.ToDouble(reader.GetAttribute("max")).ToString("0");
 
                 reader.ReadToFollowing("clouds");
-                newDay.cloud = reader.GetAttribute ("value");
+                newDay.cloud = reader.GetAttribute("value");
 
                 //TODO: if day object not null add to the days list
                 if (newDay.date != null)
@@ -61,6 +64,7 @@ namespace XMLWeather
                     days.Add(newDay);
                 }
             }
+            
         }
 
         private void ExtractCurrent()
@@ -73,7 +77,7 @@ namespace XMLWeather
             days[0].location = reader.GetAttribute("name");
 
             reader.ReadToFollowing("temperature");
-            days[0].currentTemp = reader.GetAttribute("value");
+            days[0].currentTemp = Convert.ToDouble(reader.GetAttribute("value")).ToString("0");
         }
 
 
